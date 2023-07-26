@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Music Producer | Share Your Music</title>
+  <link rel="stylesheet" href="css/bootstrap.css">
+  <link rel="icon" href="C:\Users\bensa\Downloads\SITE.jpg">
+  <STYle>
+    .cont{
+      float: right;
+      padding: none;
+    }
+    .naveBare{
+
+    }
+    .row{
+      background-color: rgb(10, 1, 20);
+    }
+  </STYle>
+</head>
+<body>
+  <header>
+    <!-- <a href="#" src="C:\Users\bensa\Downloads\SITE.jpg">Logo</a>
+    <nav class="naveBare">
+      <ul class="CONT">
+        <li><a href="#" class="btn btn-outline-primary btn-bg-red">Home</a></li>
+        <li><a href="#"  class="btn btn-outline-primary">About</a></li>
+        <li><a href="#" class="btn btn-outline-primary">Contact</a></li>
+      </ul>
+    </nav> -->
+    <div class="row">
+      <div class="col-8">
+        <a href="#" class="btn btn-outline-primary btn-bg-red">Home</a>
+      </div>
+      <div class="col-2">
+        <a href="#"  class="btn btn-outline-primary">About</a>
+      </div>
+      <div class="col-2">
+        <a href="#" class="btn btn-outline-primary">Contact</a>
+      </div>
+    </div>
+  </header>
+    <div id="slide" class="carousel slide">
+      <ol class="carousele-indicators">
+        <li data-target="#slide" data-slide-to="0" class="active" ></li>
+        <li data-target="#slide" data-slide-to="1"></li>
+        <li data-target="#slide" data-slide-to="2"></li>
+      </ol>
+      <div class="carsoul-inner">
+        <div class="carousel-item active">
+          <img src="SITE.jpg" alt="" class="w-100">
+        </div>
+        <div class="carousel-item">
+          <img src="SITE2.jpg" alt="" class="w-100">
+        </div>
+        <div class="carousel-item">
+          <img src="site3.jpg" alt="" class="w-100">
+        </div>
+      </div>
+    </div>
+
+  <main>
+    <section>
+      <h1 >Welcome to the Music Producer for free </h1>
+      <p>Share your amazing music with the world!</p>
+    </section>
+
+    <section>
+      <h2>Upload Your Music</h2>
+      <form action="upload.php" method="POST" enctype="multipart/form-data">
+        <input type="file" name="musicFile" accept=".mp3,.wav">
+        <input type="submit" value="Upload">
+      </form>
+    </section>
+    <div class="card" style="width: 18rem;">
+      <img src="SITE.jpg" alt="album cover" class="card-img">
+      <div class="card-body">
+        <h1 class="card-title" style="font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;">ferst beat</h1>
+        <p class="card-text"> this beat as prod bu me <div class="badge badge-warning" style="color: black;">@othmane lamrani alaoui</div></p>
+        <div class="btn btn-outline-success">this one</div>
+      </div>
+    </div>
+
+    <!-- <section>
+      <h2>Your Uploaded Music</h2>
+      <ul>
+        <li><a href="#">Music File 1</a></li>
+        <li><a href="#">Music File 2</a></li>
+        <li><a href="#">Music File 3</a></li>
+      </ul>
+    </section> -->
+  </main>
+
+  <footer>
+    &copy; 2023 Music Producer. All rights reserved.
+  </footer>
+</body>
+</html>
+
